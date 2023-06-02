@@ -1,0 +1,81 @@
+.container{
+    /* background-image: url('C:\Users\a2z\Desktop\As\assignment\src\Assests\background.png'); */
+    width: 630px;
+    height: 555px;
+    margin: 27px 640px 27px 20px;
+    border-radius: 20px;
+    margin-right: 30px;
+  
+}
+.logo{
+    width: 64px;
+    height: 22px;
+    left: 40px;
+    top: 54px;
+    /* margin: 27px 536px 506px 20px; */
+    position: absolute;
+}
+.sub-container{
+    position: absolute;
+    left: 40px;
+    top: 275px;
+    width: 583px;
+    font-weight: 200;
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.Title{
+    font-weight: 600;
+    font-size: xxx-large;
+}
+
+.Rectangle{
+    width: 20px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 74.4249px;;
+}
+.sub-container2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45px;
+}
+
+.Circle{
+    width: 4.87px;
+    height: 5.49px;
+    left: 69.23px;
+    top: 458.49px;
+
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 74.4249px;
+    transform: rotate(180deg);
+}
+
+.sub-container3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+@media screen and (max-width: 800px) {
+    .Title  {
+      font-size: xx-large; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .sub-container{
+        width: 300px;
+        font-size: 16px;
+    }
+    .sub-container3{
+        width: 365px;
+    }
+    .background{
+        width: 403px;
+        height: 491px;
+    }
+  }

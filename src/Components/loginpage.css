@@ -1,0 +1,71 @@
+.heading{
+    margin: 78px 3px 0px 20px;
+    text-align: center;
+}
+.view{
+    margin-left: -26px;
+}
+.inputField{
+    color: #667085;
+    padding: 20px;
+    margin-bottom: 12px;
+    width: 319px;
+    height: 10px;
+    opacity: 0.45;
+    border: 1px solid #464660;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+.btn{
+    background: #020100;
+    font-style: normal;
+    color: #fff;
+    width: 360px;
+    height: 53px;
+    margin-top: 54px;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0px 20px 32px rgba(2, 1, 0, 0.42);
+}
+.acountinfo{
+    margin-top: 4rem;
+    color: #667085;
+}
+.signup{
+    color: rgba(8, 165, 147, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+label{
+    color: red;
+}
+.password{
+    margin-top: 4px;
+    margin-bottom: -2px;
+    margin-left: 13rem;
+    color: #667085;
+}
+
+@media screen and (max-width: 800px) {
+    .inputField{
+        width: 200px;
+    }
+    .header{
+        width: 200px;
+    }
+    .password{
+        margin-left: 7rem;
+    }
+    .btn{
+        width: 230px;
+    }
+    .acountinfo{
+        width: 192px;
+    text-align: center;
+    margin-left: 49px;
+
+    }
+
+}
